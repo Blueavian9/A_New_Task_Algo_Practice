@@ -1,13 +1,18 @@
-// function sumNumbers(numbers) {
-//   return number[0] + numbers[1] + numbers[2]; // 0(1)
-// }
-
-function sumNumbers(numbers) {
-  let result = 0;
-  for (const number of numbers) {
-    result += number;
+function isPrime(number) {
+  for (let i = 2; i < number; i++) {
+    // 1
+    console.log("Running");
+    if (number % i === 0) {
+      // n
+      return false; // 1
+    }
   }
-  return result;
+  return true; // 1
 }
 
-console.log(sumNumbers([1, 3, 10, 50]));
+// Best Case: number = 1 Or number = 2 => 0(1)
+// Worst Case: number = 1,000,
+
+console.log(isPrime(1));
+console.log(isPrime(1));
+// console.log(isPrime(9));
