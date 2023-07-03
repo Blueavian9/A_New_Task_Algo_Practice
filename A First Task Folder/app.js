@@ -11,8 +11,9 @@ function isPrime(number) {
 }
 
 // Best Case: number = 1 Or number = 2 => 0(1)
-// Worst Case: number = 1,000,
+// Average Case: 0(n)
+// Worst Case: number = 27,277 => 0(n)
 
-console.log(isPrime(1));
-console.log(isPrime(1));
-// console.log(isPrime(9));
+console.log(isPrime(27277));
+//console.log(isPrime(2));
+//console.log(isPrime(9));
